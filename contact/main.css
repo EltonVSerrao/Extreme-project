@@ -1,0 +1,80 @@
+@inport url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size: 12px;
+    line-height:30px;
+    color:#777;
+    background-color: #76b852;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+body,
+input,
+select,
+textarea
+{
+    font: 1rem Lato, sans-serif;
+}
+
+label,
+input,
+select,
+textarea
+{
+    display: block;
+}
+
+input,
+select,
+textarea
+{
+    padding: 10px;
+    width: 100%;
+}
+
+label input,
+label select,
+label textarea
+{
+    margin-top: 10px;
+}
+label
+{
+    margin-bottom: 20px;
+}
+input[type="submit"],
+button
+{
+    width: auto;
+}
+.muted
+{
+    color: #ff1850;
+}
+
+.contact
+{
+    margin-left: 31em;
+    width: 100%;
+    max-width: 500px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.panel
+{
+    border: 1px solid #ddd;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+h1, h4
+{
+    color:white;
+}
